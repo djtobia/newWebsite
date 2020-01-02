@@ -4,6 +4,7 @@
         app
         permanent
         right
+        color="green lighten-3"
     >
         <v-list>
             <v-list-item>

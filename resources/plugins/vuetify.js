@@ -12,12 +12,14 @@ const opts ={
             light: {
                 primary: colors.green,
                 secondary: colors.red,
-                tertiary: colors.purple
+                tertiary: colors.purple,
+                anchor: colors.amber
             },
             dark: {
-                primary: colors.green.darken2,
+                primary: colors.purple.lighten2,
                 secondary: colors.red.darken2,
-                tertiary: colors.amber
+                tertiary: colors.amber,
+                anchor: colors.amber
             }
         }
     }
