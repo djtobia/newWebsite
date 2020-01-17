@@ -2,18 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="509def6b-13fa-4083-a515-520f0c353c93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/washit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/SimpleAbout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/TopImage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/NightBloom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/EventBus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Footer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/washit.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/About.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/SimpleAbout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/SimpleAbout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/TopImage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TopImage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/plugins/vuetify.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plugins/vuetify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -130,7 +142,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ViO6DdjIwTAOxzlcwRPIMnHPRm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -188,10 +202,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577947780697" />
-    <state x="591" y="65" width="737" height="909" key="find.popup" timestamp="1577953894241">
+    <state x="591" y="65" width="737" height="909" key="find.popup" timestamp="1579238787134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="591" y="65" width="737" height="909" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577953894241" />
+    <state x="591" y="65" width="737" height="909" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579238787134" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1577952698878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -9,14 +9,14 @@
         </v-row>
         <v-row justify="center" align="center">
             <v-spacer/>
-            <v-col cols="12" lg="6" md="8" class="center-align">
+            <v-col cols="12" lg="6" md="8" class="text-center">
                 His <a class="link-text" href="https://github.com/djtobia" target="none">Github</a>
             </v-col>
             <v-spacer/>
         </v-row>
         <v-row justify="center" align="center">
             <v-spacer/>
-            <v-col cols="12" lg="6" md="8" class="center-align">
+            <v-col cols="12" lg="6" md="8" class="text-center">
                 His <a href="https://www.linkedin.com/in/dylantobia" class="link-text" target="none">LinkedIn</a>
             </v-col>
             <v-spacer/>

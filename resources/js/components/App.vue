@@ -1,19 +1,35 @@
 <template>
     <v-app class="background-dark">
-        <Sidebar></Sidebar>
+        <sidebar/>
+        <top-image>
+            <template v-slot:header>
+
+            </template>
+            <</top-image>
         <v-content>
-            <router-view></router-view>
+            <router-view/>
         </v-content>
+        <Footer/>
     </v-app>
 </template>
 
 <script>
     import Sidebar from "./Sidebar.vue";
-
+    import Footer from "./Footer";
+    import TopImage from "./TopImage";
     export default {
         name: "App",
         components: {
-            Sidebar
+            Sidebar,
+            TopImage,
+            Footer
+        },
+        data() {
+            return {
+                subText : 'Software Developer'
+            }
+        },
+        created() {
         }
     }
 </script>
@@ -27,7 +43,7 @@
 <!-- Global Styles -->
 <style>
     .link-text {
-        color: #FFC107;
+        color: lightgreen;
         text-decoration: none;
     }
     .link-text:hover {
@@ -35,11 +51,9 @@
     }
 
     .link-text:visited {
-        color: red;
+        color: green;
     }
-    .center-align {
-        text-align: center;
-    }
+
     .shadowed {
         text-shadow: 5px 3px darkslategray;
     }
